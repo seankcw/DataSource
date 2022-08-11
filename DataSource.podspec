@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/Fueled/DataSource'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = 'Fueled'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '12.0'
   s.swift_version = '5'
   s.source = { :git => 'https://github.com/Fueled/DataSource.git', :tag => s.version }
   s.source_files = 'DataSource/**/*.swift'
-  s.dependency 'ReactiveSwift', '~> 6.1'
+  s.dependency 'ReactiveSwift', '7.0.0'
 end

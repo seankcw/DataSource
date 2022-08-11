@@ -11,7 +11,7 @@ import Nimble
 import Quick
 
 class TableViewDataSourceSharedConfiguration: QuickConfiguration {
-	override class func configure(_ configuration: Configuration) {
+	override class func configure(_ configuration: QCKConfiguration) {
 		sharedExamples("TableViewDataSource object") { (sharedExampleContext: @escaping SharedExampleContext) in
 			describe("TableView tests") {
 				var tableViewDataSource: TableViewDataSource!

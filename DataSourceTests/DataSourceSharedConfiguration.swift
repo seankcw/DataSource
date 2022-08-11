@@ -12,7 +12,7 @@ import Nimble
 import Quick
 
 class DataSourceSharedConfiguration: QuickConfiguration {
-	override class func configure(_ configuration: Configuration) {
+	override class func configure(_ configuration: QCKConfiguration) {
 		sharedExamples("DataSource protocol") { (sharedExampleContext: @escaping SharedExampleContext) in
 			describe("Datasource protocol") {
 				var dataSource: DataSource!

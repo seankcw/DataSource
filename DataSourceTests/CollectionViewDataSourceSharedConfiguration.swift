@@ -11,7 +11,7 @@ import Nimble
 import Quick
 
 class CollectionViewDataSourceSharedConfiguration: QuickConfiguration {
-	override class func configure(_ configuration: Configuration) {
+	override class func configure(_ configuration: QCKConfiguration) {
 		sharedExamples("CollectionViewDataSource object") { (sharedExampleContext: @escaping SharedExampleContext) in
 			describe("CollectionView tests") {
 				var collectionViewDataSource: CollectionViewDataSource!
